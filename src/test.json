@@ -1,0 +1,455 @@
+{
+  "primaryKey": {
+    "nextTypeId": 13,
+    "nextSubTypeId": 51,
+    "nextAccountId": 4,
+    "nextRecordId": 1
+  },
+  "typeList": [
+    {
+      "id": 1,
+      "type": "spending",
+      "name": "衣服饰品",
+      "icon": "cash"
+    },
+    {
+      "id": 2,
+      "type": "spending",
+      "name": "食品酒水",
+      "icon": "cash"
+    },
+    {
+      "id": 3,
+      "type": "spending",
+      "name": "居家物业",
+      "icon": "cash"
+    },
+    {
+      "id": 4,
+      "type": "spending",
+      "name": "行车交通",
+      "icon": "cash"
+    },
+    {
+      "id": 5,
+      "type": "spending",
+      "name": "交流通讯",
+      "icon": "cash"
+    },
+    {
+      "id": 6,
+      "type": "spending",
+      "name": "休闲娱乐",
+      "icon": "cash"
+    },
+    {
+      "id": 7,
+      "type": "spending",
+      "name": "学习进修",
+      "icon": "cash"
+    },
+    {
+      "id": 8,
+      "type": "spending",
+      "name": "人情往来",
+      "icon": "cash"
+    },
+    {
+      "id": 9,
+      "type": "spending",
+      "name": "医疗保健",
+      "icon": "cash"
+    },
+    {
+      "id": 10,
+      "type": "spending",
+      "name": "金融保险",
+      "icon": "cash"
+    },
+    {
+      "id": 11,
+      "type": "spending",
+      "name": "其他杂项",
+      "icon": "cash"
+    },
+    {
+      "id": 12,
+      "type": "income",
+      "name": "职业收入",
+      "icon": "cash"
+    }
+  ],
+  "subTypeList": [
+    {
+      "id": 1,
+      "type": "spending",
+      "parentId": 1,
+      "name": "化妆饰品",
+      "icon": "cash"
+    },
+    {
+      "id": 2,
+      "type": "spending",
+      "parentId": 1,
+      "name": "鞋帽包包",
+      "icon": "cash"
+    },
+    {
+      "id": 3,
+      "type": "spending",
+      "parentId": 1,
+      "name": "衣服裤子",
+      "icon": "cash"
+    },
+    {
+      "id": 4,
+      "type": "spending",
+      "parentId": 2,
+      "name": "水果零食",
+      "icon": "cash"
+    },
+    {
+      "id": 5,
+      "type": "spending",
+      "parentId": 2,
+      "name": "烟酒茶",
+      "icon": "cash"
+    },
+    {
+      "id": 6,
+      "type": "spending",
+      "parentId": 2,
+      "name": "早午晚餐",
+      "icon": "cash"
+    },
+    {
+      "id": 7,
+      "type": "spending",
+      "parentId": 3,
+      "name": "维修保养",
+      "icon": "cash"
+    },
+    {
+      "id": 8,
+      "type": "spending",
+      "parentId": 3,
+      "name": "物业管理",
+      "icon": "cash"
+    },
+    {
+      "id": 9,
+      "type": "spending",
+      "parentId": 3,
+      "name": "房租",
+      "icon": "cash"
+    },
+    {
+      "id": 10,
+      "type": "spending",
+      "parentId": 3,
+      "name": "水电煤气",
+      "icon": "cash"
+    },
+    {
+      "id": 11,
+      "type": "spending",
+      "parentId": 3,
+      "name": "日常用品",
+      "icon": "cash"
+    },
+    {
+      "id": 12,
+      "type": "spending",
+      "parentId": 4,
+      "name": "私家车费用",
+      "icon": "cash"
+    },
+    {
+      "id": 13,
+      "type": "spending",
+      "parentId": 4,
+      "name": "打车租车",
+      "icon": "cash"
+    },
+    {
+      "id": 14,
+      "type": "spending",
+      "parentId": 4,
+      "name": "公共交通",
+      "icon": "cash"
+    },
+    {
+      "id": 15,
+      "type": "spending",
+      "parentId": 5,
+      "name": "邮寄费",
+      "icon": "cash"
+    },
+    {
+      "id": 16,
+      "type": "spending",
+      "parentId": 5,
+      "name": "上网费",
+      "icon": "cash"
+    },
+    {
+      "id": 17,
+      "type": "spending",
+      "parentId": 5,
+      "name": "手机费",
+      "icon": "cash"
+    },
+    {
+      "id": 18,
+      "type": "spending",
+      "parentId": 5,
+      "name": "座机费",
+      "icon": "cash"
+    },
+    {
+      "id": 19,
+      "type": "spending",
+      "parentId": 6,
+      "name": "旅游度假",
+      "icon": "cash"
+    },
+    {
+      "id": 20,
+      "type": "spending",
+      "parentId": 6,
+      "name": "宠物宝贝",
+      "icon": "cash"
+    },
+    {
+      "id": 21,
+      "type": "spending",
+      "parentId": 6,
+      "name": "休闲玩乐",
+      "icon": "cash"
+    },
+    {
+      "id": 22,
+      "type": "spending",
+      "parentId": 6,
+      "name": "腐败聚会",
+      "icon": "cash"
+    },
+    {
+      "id": 23,
+      "type": "spending",
+      "parentId": 6,
+      "name": "运动健身",
+      "icon": "cash"
+    },
+    {
+      "id": 24,
+      "type": "spending",
+      "parentId": 7,
+      "name": "数码装备",
+      "icon": "cash"
+    },
+    {
+      "id": 25,
+      "type": "spending",
+      "parentId": 7,
+      "name": "培训进修",
+      "icon": "cash"
+    },
+    {
+      "id": 26,
+      "type": "spending",
+      "parentId": 7,
+      "name": "书报杂志",
+      "icon": "cash"
+    },
+    {
+      "id": 27,
+      "type": "spending",
+      "parentId": 8,
+      "name": "慈善捐助",
+      "icon": "cash"
+    },
+    {
+      "id": 28,
+      "type": "spending",
+      "parentId": 8,
+      "name": "还人钱财",
+      "icon": "cash"
+    },
+    {
+      "id": 29,
+      "type": "spending",
+      "parentId": 8,
+      "name": "孝敬家长",
+      "icon": "cash"
+    },
+    {
+      "id": 30,
+      "type": "spending",
+      "parentId": 8,
+      "name": "送礼请客",
+      "icon": "cash"
+    },
+    {
+      "id": 31,
+      "type": "spending",
+      "parentId": 9,
+      "name": "治疗费",
+      "icon": "cash"
+    },
+    {
+      "id": 32,
+      "type": "spending",
+      "parentId": 9,
+      "name": "美容费",
+      "icon": "cash"
+    },
+    {
+      "id": 33,
+      "type": "spending",
+      "parentId": 9,
+      "name": "保健费",
+      "icon": "cash"
+    },
+    {
+      "id": 34,
+      "type": "spending",
+      "parentId": 9,
+      "name": "药品费",
+      "icon": "cash"
+    },
+    {
+      "id": 35,
+      "type": "spending",
+      "parentId": 10,
+      "name": "赔偿罚款",
+      "icon": "cash"
+    },
+    {
+      "id": 36,
+      "type": "spending",
+      "parentId": 10,
+      "name": "利息支出",
+      "icon": "cash"
+    },
+    {
+      "id": 37,
+      "type": "spending",
+      "parentId": 10,
+      "name": "消费税收",
+      "icon": "cash"
+    },
+    {
+      "id": 38,
+      "type": "spending",
+      "parentId": 10,
+      "name": "按揭还款",
+      "icon": "cash"
+    },
+    {
+      "id": 39,
+      "type": "spending",
+      "parentId": 10,
+      "name": "投资亏损",
+      "icon": "cash"
+    },
+    {
+      "id": 40,
+      "type": "spending",
+      "parentId": 10,
+      "name": "银行手续",
+      "icon": "cash"
+    },
+    {
+      "id": 41,
+      "type": "spending",
+      "parentId": 11,
+      "name": "其他",
+      "icon": "cash"
+    },
+    {
+      "id": 42,
+      "type": "spending",
+      "parentId": 11,
+      "name": "烂账损失",
+      "icon": "cash"
+    },
+    {
+      "id": 43,
+      "type": "spending",
+      "parentId": 11,
+      "name": "意外丢失",
+      "icon": "cash"
+    },
+    {
+      "id": 44,
+      "type": "spending",
+      "parentId": 11,
+      "name": "其他支出",
+      "icon": "cash"
+    },
+    {
+      "id": 45,
+      "type": "income",
+      "parentId": 12,
+      "name": "加班收入",
+      "icon": "cash"
+    },
+    {
+      "id": 46,
+      "type": "income",
+      "parentId": 12,
+      "name": "奖金收入",
+      "icon": "cash"
+    },
+    {
+      "id": 47,
+      "type": "income",
+      "parentId": 12,
+      "name": "投资收入",
+      "icon": "cash"
+    },
+    {
+      "id": 48,
+      "type": "income",
+      "parentId": 12,
+      "name": "兼职收入",
+      "icon": "cash"
+    },
+    {
+      "id": 49,
+      "type": "income",
+      "parentId": 12,
+      "name": "利息收入",
+      "icon": "cash"
+    },
+    {
+      "id": 50,
+      "type": "income",
+      "parentId": 12,
+      "name": "工资收入",
+      "icon": "cash"
+    }
+  ],
+  "accountList": [
+    {
+      "id": 1,
+      "name": "支付宝",
+      "icon": "alipay",
+      "balance": "0"
+    },
+    {
+      "id": 2,
+      "name": "银行卡",
+      "icon": "card",
+      "balance": "0"
+    },
+    {
+      "id": 3,
+      "name": "微信",
+      "icon": "wechat",
+      "balance": "0"
+    }
+  ],
+  "recordList": []
+}
